@@ -164,6 +164,18 @@ footer {
     border-radius: 4px;
 }
 
+footer a {
+    text-decoration: none;
+    color: rgb(234, 145, 228);
+    font-weight: 500;
+    transition: all 300ms;
+}
+
+footer a:hover {
+    color: rgb(243, 174, 238);
+    transition: all 300ms;
+}
+
 @media screen and (max-width: 960px) {
     body {
         background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9F55FF 0%, #FF46B9 100%));
