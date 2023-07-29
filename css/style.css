@@ -207,6 +207,12 @@ footer a:hover {
         align-items: center;
         gap: 20px;
     }   
+
+    .poster button {
+        background: var(--gradientes-gradiente-hover, linear-gradient(90deg, #9f55ff9e 0%, #ff46b889 100%));
+
+    }
+
     footer {
         width: 95vw;
         background-color: #2b2b3756;
